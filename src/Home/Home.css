@@ -1,0 +1,50 @@
+.menu{
+    background-color: transparent ;
+}
+
+.banner{
+    background-image: url("../assets/img/fondohalloween.jpg");
+    padding: 25%;                  /*imagen responsive*/
+    position: relative;       /*ubicación del elemento en la pagina*/   
+    z-index: 1;
+    background-attachment: fixed;
+
+}
+.banner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.banner2 {
+    background-image: url("../assets/img/bannerdos.png");
+    padding: 25%;
+    /*imagen responsive*/
+    position: relative;
+    /*ubicación del elemento en la pagina*/
+    z-index: 1;
+    background-attachment: fixed;
+
+}
+
+.banner2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.fondo{
+    background-color: #BA7921;
+}
