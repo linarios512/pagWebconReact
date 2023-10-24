@@ -85,7 +85,7 @@ export function Home(){
 </nav>
 
         </header>
-        <div className="banner text-white fw-bold">
+        <div className="banner text-black fw-bold">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis animi soluta repellat quasi suscipit. Dicta ipsum quae, aliquid beatae laboriosam sint cumque quasi, itaque inventore sapiente molestiae quibusdam! Commodi, recusandae!</p>
         
         <button className='btn btn-outline-warning'>Conocenos</button>
