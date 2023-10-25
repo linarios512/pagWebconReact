@@ -3,7 +3,7 @@
 }
 
 .banner{
-    background-image: url("../assets/img/fondohalloween.jpg");
+    background-image: url("../assets/img/happyhalloween.jpg");
     padding: 25%;                  /*imagen responsive*/
     position: relative;       /*ubicación del elemento en la pagina*/   
     z-index: 1;
@@ -23,7 +23,7 @@
 }
 
 .banner2 {
-    background-image: url("../assets/img/bannerdos.png");
+    background-image: url("../assets/img/halloweennn.jpg");
     padding: 25%;
     /*imagen responsive*/
     position: relative;
@@ -46,6 +46,6 @@
 }
 
 .fondo{
-    background-color: #BA7921;
+    background-color: #BD9041;
 }
 

@@ -85,7 +85,7 @@ export function Home(){
 </nav>
 
         </header>
-        <div className="banner text-black fw-bold">
+        <div className="banner text-white fw-bold">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis animi soluta repellat quasi suscipit. Dicta ipsum quae, aliquid beatae laboriosam sint cumque quasi, itaque inventore sapiente molestiae quibusdam! Commodi, recusandae!</p>
         
         <button className='btn btn-outline-warning'>Conocenos</button>
@@ -95,7 +95,7 @@ export function Home(){
             <div className="col-12 align-self-center text-center">
               <h5>LA CASITA DEL HORROR</h5>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis natus quod pariatur nam quae nesciunt sapiente nihil temporibus. Molestiae quod veritatis ipsa dolorem adipisci facilis itaque cupiditate sapiente maxime optio?</p>
-              <img src="../../src/assets/img/fotologo.png" alt="foto" className='img-fluid' />
+              <img src="../../src/assets/img/fotologo.png" alt="foto" className='img-fluid w-25' />
             </div>
             
           </div>
@@ -103,6 +103,72 @@ export function Home(){
          </div>
          <div className="banner2"></div>
 
+        <div className="container-fluid g-0">
+          <div className="row">
+            <div className="col-12">
+              <img src="../../src/assets/img/imagen.jpg" alt=""className='img-fluid w-100' />
+            </div>
+          </div>
+          <div className="row row-cols-1 row-cols-md-3 my-5">
+            <div className="col text-center">
+              <div className="card h-100 p-3 shadow">
+                <img src="../../src/assets/img/tarjetauno.jpg" alt="foto" className='img-fluid w-100'/>
+                <h3>SERVICIO1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolore laboriosam ipsum voluptatum? Obcaecati consectetur illum suscipit assumenda quis voluptatem, saepe officia delectus, asperiores cumque vel blanditiis possimus, tempora non!</p>
+                <hr />
+                <h5 className='fw-bold text-success'>$500.000 COP</h5>
+                <button className='btn btn-primary'>
+                  Ampliar  <i class="bi bi-shop"></i>
+                  </button>
+              </div>
+            </div>
+            <div className="col"><div className="col text-center">
+              <div className="card h-100 p-3 shadow">
+                <img src="../../src/assets/img/tarjetatres.jpg" alt="foto" className='img-fluid w-100'/>
+                <h3>SERVICIO1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolore laboriosam ipsum voluptatum? Obcaecati consectetur illum suscipit assumenda quis voluptatem, saepe officia delectus, asperiores cumque vel blanditiis possimus, tempora non!</p>
+                <hr />
+                <h5 className='fw-bold text-success'>$500.000 COP</h5>
+                <button className='btn btn-primary'>
+                  Ampliar  <i class="bi bi-shop"></i>
+                  </button>
+              </div>
+            </div> </div>
+            <div className="col"><div className="col text-center">
+              <div className="card h-100 p-3 shadow">
+                <img src="../../src/assets/img/tarjetados.jpg" alt="foto" className='img-fluid w-100'/>
+                <h3>SERVICIO1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolore laboriosam ipsum voluptatum? Obcaecati consectetur illum suscipit assumenda quis voluptatem, saepe officia delectus, asperiores cumque vel blanditiis possimus, tempora non!</p>
+                <hr />
+                <h5 className='fw-bold text-success'>$500.000 COP</h5>
+                <button className='btn btn-primary'>
+                  Ampliar  <i class="bi bi-shop"></i>
+                  </button>
+              </div>
+            </div></div>
+
+          </div>
+        </div>
+        <footer>
+          <div className="container-fluid bg-dark text-white">
+            <div className="row p-5">
+              <div className="col-6 text-end border-end">
+                <h1>Telefono</h1>
+                <h3>Medellin-Colombia</h3>
+                <h5>Todos los derechos reservados &copy;</h5>
+              </div>
+              <div className="col-6 align-self-center">
+              <i class="bi bi-instagram p-2 fs-4"></i>
+              <i class="bi bi-whatsapp p-2 fs-4"></i>
+              <i class="bi bi-tiktok p-2 fs-4"></i>
+
+
+              </div>
+            </div>
+            
+          </div>
+
+        </footer>
         </>
     )
 }
