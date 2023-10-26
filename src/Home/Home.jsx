@@ -1,4 +1,5 @@
 import './Home.css'
+import { Formulario } from '../Formulario/Formulario'
 export function Home(){
 
     return(
@@ -136,7 +137,7 @@ export function Home(){
             </div> </div>
             <div className="col"><div className="col text-center">
               <div className="card h-100 p-3 shadow">
-                <img src="../../src/assets/img/tarjetados.jpg" alt="foto" className='img-fluid w-100'/>
+                <img src="../../src/assets/img/tarjetacuatro.jpg" alt="foto" className='img-fluid w-100'/>
                 <h3>SERVICIO1</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolore laboriosam ipsum voluptatum? Obcaecati consectetur illum suscipit assumenda quis voluptatem, saepe officia delectus, asperiores cumque vel blanditiis possimus, tempora non!</p>
                 <hr />
@@ -149,6 +150,16 @@ export function Home(){
 
           </div>
         </div>
+        <section>
+              <div className="container">
+                <div className="row">
+                  <div className="col-12">
+                  <Formulario></Formulario>
+                  </div>
+                </div>
+              </div>
+        </section>
+
         <footer>
           <div className="container-fluid bg-dark text-white">
             <div className="row p-5">
